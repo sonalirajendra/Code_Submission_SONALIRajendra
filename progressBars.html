@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="jquery-1.12.0.js"></script>
+<script src="ProgressBar.js"></script>
+
+
+<link rel="stylesheet"  href="Progress.css">
+
+<meta charset="ISO-8859-1">
+<title>Coding Test</title>
+</head>
+<body>
+  
+<div class="container">
+
+
+<div id="basicInfo">
+<h1>Technical SKills Test Submission</h1>
+<p><Strong>Sonali Rajendra </Strong><br /><br />
+ <span class="glyphicon glyphicon-envelope"></span> &nbsp; sonali.gc@outlook.com <br />
+ <span class="glyphicon glyphicon-earphone"></span> &nbsp; 0468742071 <br /> 
+ <span class="glyphicon glyphicon-home"></span> &nbsp; Sydney,Australia</p>
+<p></p>
+</div>
+
+<section>
+  <h3>The Progress Bar Demo:</h3>
+
+<span style="padding-left:20px"></span>
+
+
+<div class="row">
+<div class="col-sm-4 ">
+	<progress class="progress" value="0" max="100"    id="pbOne"></progress>
+	<br />
+ 	<span class="label label-info" id="msgId1">0%</span>&nbsp;&nbsp;<span class="label label-danger" id="errorId1"></span>
+</div>
+<div class="col-sm-4">
+	<progress class="progress" value="0" max="100"   id="pbTwo"></progress>
+	<br />
+	<span class="label label-info" id="msgId2">0%</span><span class="label label-danger" id="errorId2"></span>
+</div>
+<div class="col-sm-4">
+	<progress class="progress" value="0" max="100"   id="pbThree"></progress>
+	<br />
+	<span class="label label-info"  id="msgId3">0%</span><span class="label label-danger" id="errorId3"></span>
+	
+</div>
+</div>
+
+<br /><br />
+
+
+
+<div class="row">
+  <div class="col-sm-3 "></div>
+  <div class="col-sm-3 ">
+      <select id="pBarOption" class="form-control">
+
+	      <option>Bar 1</option>
+	      <option>Bar 2</option>
+	      <option>Bar 3</option> 
+	      
+	</select>
+  
+  </div>
+  <div class="col-sm-6 ">
+		<button class="btn btn-info" id="add25" value="+25" >+25</button>
+		<button class="btn btn-info" id="add10" value="+10" >+10</button>
+		<button class="btn btn-info" id="minus10" value="-10" >-10</button>
+		<button class="btn btn-info" id="minus25" value="-25" >-25</button>
+  </div>
+
+</div>
+</div>
+</section>
+</body>
+</html>
